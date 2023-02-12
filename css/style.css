@@ -1,0 +1,124 @@
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.infoCall {
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+  padding: 0 1.875rem 1.875rem 1.875rem;
+}
+
+.infoCall__content {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #fff;
+  padding: 0.625rem 0.625rem;
+}
+
+.infoCall--name {
+  font-weight: 600;
+}
+
+.infoCall--name:last-of-type {
+  font-size: 0.875rem;
+}
+
+.infoCall__title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.infoMessage__title {
+  font-size: 1rem;
+}
+
+.mainContent {
+  margin: 1.875rem;
+  background-color: #fff;
+}
+
+.mainContent h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  padding-bottom: 0.625rem;
+}
+
+.mainContent p {
+  font-size: 0.875rem;
+  font-weight: 400;
+  padding-bottom: 1.25rem;
+}
+
+.list__text {
+  padding-bottom: 0.625rem;
+  font-size: 0.875rem;
+}
+
+.purchaseInfo {
+  padding: 1.25rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content__text {
+  font-size: 0.9375rem;
+}
+
+.content__code strong {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.content__button {
+  font-size: 0.875rem;
+  font-weight: 500;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 10px;
+}
+
+.purchaseInfo__gift {
+  width: 150px;
+}
+
+.contactInfo {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 30px;
+}
+
+.contactInfo__title {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.contactInfo__text {
+  font-size: 0.625rem;
+  font-weight: 400;
+}
+
+.contatInfo__content {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+.contactInfo__text {
+  font-size: 0.625rem;
+  font-weight: 600;
+}
+
+.contactInfo__text em {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}

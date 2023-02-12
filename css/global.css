@@ -1,0 +1,7 @@
+/* General Style - Mobile Fisrt */
+
+@import "./style.css";
+
+/* Tablet and desktop style */
+
+@import "./responsive.css";
