@@ -10,7 +10,7 @@
 }
 
 .pcontainer {
-  padding: 0 1.875rem 1.875rem 1.875rem;
+  padding: 0 3.75rem 3.75rem 3.75rem;
 }
 
 .infoCall {
@@ -26,6 +26,7 @@
   justify-content: space-around;
   background-color: #fff;
   padding: 0.625rem 0.625rem;
+  border-radius: 0 0 4px 4px;
 }
 
 .infoCall--name {
@@ -47,13 +48,13 @@
 
 .mainContent {
   background-color: #fff;
-  padding-top: 2rem;
+  padding-top: 2.5rem;
 }
 
 .mainContent h2 {
   font-size: 1rem;
   font-weight: 600;
-  padding-bottom: 0.625rem;
+  padding-bottom: 0.5rem;
 }
 
 .mainContent p {
@@ -64,16 +65,19 @@
 
 .keylist {
   background-color: #f9f9f9;
+  margin-top: 3.5rem;
 }
 
 .list__text {
   padding-bottom: 0.625rem;
   font-size: 0.875rem;
+  margin-bottom: 0.5rem;
 }
 
 .purchaseInfo {
   display: flex;
   justify-content: space-between;
+  margin-top: 4.5rem;
 }
 
 .content__text {
@@ -96,7 +100,7 @@
 .contactInfo {
   background-color: #000;
   color: #fff;
-  padding: 1rem 1.875rem 1rem 1.875rem;
+  padding: 1.5rem 3.75rem 3.75rem 3.75rem;
 }
 
 .contatInfo__content {
